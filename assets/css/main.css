@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    padding: 2rem;
+}
+
+nav ul {
+    margin: 0;
+    padding: 2rem;
+    overflow: hidden;
+    background-color: #333;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    display: inline;
+}
+
+nav li a {
+    padding: 3rem;
+    color: white;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #111;
+}
+
+footer {
+    margin-top: auto;
+    padding: 1.6rem;
+    background-color: #333;
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+}
